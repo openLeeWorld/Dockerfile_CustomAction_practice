@@ -9,16 +9,17 @@ This action prints out the number of arguments passed in
 **Required** The arguments to count.
 
 ## Outputs
-## `argument`
+## `argcount`
 
 The count of the arguments.
 
 ## Example usage 
 
 ```yaml
-uses: <repo>/arg-count-docker-action@v1
+uses: openLeeWorld/Dockerfile_CustomAction_practice@main
+
 with:
-  arguments: <arguments>
+  arguments: <arguments> 
 ```
 
 
